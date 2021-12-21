@@ -1,0 +1,49 @@
+body {
+				background-color: black;
+				padding-top: 80px;
+				padding-bottom: 80px;
+}
+
+.title {
+		margin-bottom: 50px;
+}
+
+
+h1 {
+				font-family: "Montserrat";
+				text-align: center;
+				margin: 0;
+				font-size: 30px;
+				color: whitesmoke;
+}
+
+
+#quoteDisplay {
+				font-family: Dosis;
+				font-size: 30px;
+				padding: 20px 30px;
+				margin: auto;
+				border: 3px solid whitesmoke;
+				border-radius: 5px;
+				height: 80px;
+				color: whitesmoke;
+}
+
+button {
+				background-color: #131313;
+				color: whitesmoke;
+				border: none;
+				border-radius: 50px;
+				padding: 30px 60px;
+				margin-top: 30px;
+				font-family: Montserrat;
+				
+}
+
+button:active				 {
+				background-color: #444444;
+}
+
+.center {
+				text-align: center;
+}

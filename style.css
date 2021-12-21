@@ -1,7 +1,62 @@
 body {
-	background-color: #E08DAC;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	background-color: #DC7FA1;
+  margin: 40px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  margin: 0;
+  font-size: 30px;
+  color: #B8F3F4;
+  padding: 10px 0px;
+}
+
+p {
+  font-family: "raleway";
+  font-size: 18px;
+  color: #B8F3F4;
+}
+
+header {
+  margin: 20px 0px;
+  
+}
+
+#title {
+  display: inline-block;
+  background-color: #363859;
+  box-shadow: 5px 3px 5px 2px #D35F89;
+  padding: 10px;
+  margin: 15px 0px;
+  font-family: 'Inconsolata';
+  font-size: 15px;
+}
+
+#title2 {
+  display: inline-block;
+  background-color: #363859;
+  box-shadow: 5px 3px 5px 2px #D35F89;
+  padding: 10px;
+  margin: 15px 0px;
+  font-family: 'Inconsolata';
+  font-size: 15px;
+}
+
+#title3 {
+  display: inline-block;
+  background-color: #363859;
+  box-shadow: 5px 3px 5px 2px #D35F89;
+  padding: 10px;
+  margin: 15px 0px;
+  font-family: 'Inconsolata';
+  font-size: 15px;
+}
+
+.card {
+  background-color: #363859;
+  box-shadow: 5px 3px 5px 2px #D35F89;
+  padding: 10px;
+  margin: 15px 0px;
 }
 
 .reasonsILoveYou {
@@ -9,9 +64,8 @@ body {
 }
 
 
-h1 {
+.reasonsILoveYou h1 {
   font-family: "Montserrat";
-  text-align: center;
   margin: 0;
   font-size: 30px;
   color: #B8F3F4;
@@ -19,19 +73,20 @@ h1 {
 
 
 #quoteDisplay {
-  font-family: Dosis;
+  font-family: Inconsolata;
   font-size: 30px;
   padding: 20px 30px;
   margin: auto;
-  border: 3px solid #153131;
+  border: 3px solid #3D4066;
   border-radius: 5px;
   height: 80px;
   color: #B8F3F4;
+  background-color: #171726;
 }
 
 button {
-	background-color: #153131;
-	color: whitesmoke;
+	background-color: #0F0F1A;
+	color: #B8F3F4;
 	border: none;
 	border-radius: 50px;
 	padding: 30px 60px;
@@ -41,7 +96,7 @@ button {
 }
 
 button:active				 {
-	background-color: #444444;
+	background-color: #1E1E34;
 }
 
 .center-button {
